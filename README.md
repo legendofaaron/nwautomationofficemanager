@@ -13,11 +13,7 @@ Office Manager is a completely free solution for document management, schedule o
 - **Knowledge Base**: Build and maintain a searchable company knowledge base
 - **Office Management**: Schedule management, team coordination, and productivity tools
 - **Intelligent Assistant**: AI-powered assistance for various office tasks
-- **100% Free**: All features available at no cost
 
-## Project info
-
-**URL**: https://lovable.dev/projects/01b48752-b4f5-46f3-b097-2535d8e730c6
 
 ## License
 
@@ -27,11 +23,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 There are several ways of editing your application.
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/01b48752-b4f5-46f3-b097-2535d8e730c6) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
@@ -122,5 +113,5 @@ Key features of the Apple Silicon build:
 If you find Office Manager useful, please consider supporting its development with a tip at https://www.paypal.me/aaronthelegend
 
 ## Contact
-
+nwautomations
 For questions or support, please open an issue on the GitHub repository or contact us at northwesternautomation@gmail.com
