@@ -1,5 +1,5 @@
 
-# Office Manager - Schedule Genarator
+# Office Manager - Schedule Generator
 <img width="1005" alt="light and dark mode " src="https://github.com/user-attachments/assets/3920a9bc-b4f9-43c5-8ece-803d06aeb412" />
 
 
