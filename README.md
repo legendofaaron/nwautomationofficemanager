@@ -3,115 +3,76 @@
 <img width="1005" alt="light and dark mode " src="https://github.com/user-attachments/assets/3920a9bc-b4f9-43c5-8ece-803d06aeb412" />
 
 
-## Overview
+Overview
+Office Manager is a powerful, open-source administrative suite designed to streamline document management, schedule organization, and workplace productivity. By combining AI-driven automation with a local-first architecture, it offers a robust alternative to expensive cloud-based office tools for both commercial and personal use.
 
-Office Manager is a completely free solution for document management, schedule organization, and enhanced workplace productivity. It's available at no cost for both commercial and personal use.
+Features
+Document Management: Create, edit, and organize business documents with integrated AI assistance.
 
-## Features
+Knowledge Base: Build a searchable, private company repository for internal procedures and data.
 
-- **Document Management**: Create, edit, and organize documents with AI assistance
-- **Knowledge Base**: Build and maintain a searchable company knowledge base
-- **Office Management**: Schedule management, team coordination, and productivity tools
-- **Intelligent Assistant**: AI-powered assistance for various office tasks
+Office Management: Professional-grade tools for shift scheduling, team coordination, and task tracking.
 
+Intelligent Assistant: An AI-powered co-pilot tailored to handle repetitive administrative tasks.
 
-## License
+License
+This project is licensed under the MIT License. While the source code is open-access and permissive for modification, please note that specific third-party integrations or hosting platforms may incur their own costs. See the LICENSE.md file for full details.
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+How to Edit This Code
+You can customize the application to fit your specific business needs using the following methods:
 
-## How can I edit this code?
+Use Your Preferred IDE
 
-There are several ways of editing your application.
+To work locally, ensure you have Node.js & npm installed.
 
+Clone the repository: git clone https://github.com/legendofaaron/nwautomationofficemanager.git
 
-**Use your preferred IDE**
+Navigate to the directory: cd nwautomationofficemanager
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Install dependencies: npm install
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Launch development server: npm run dev
 
-Follow these steps:
+Direct Browser Editing
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone https://github.com/lovable-labs/office-manager.git
+GitHub Editor: Click the pencil icon on any file within the repository to make quick commits.
 
-# Step 2: Navigate to the project directory.
-cd office-manager
+GitHub Codespaces: Launch a full cloud-based development environment by clicking Code > Codespaces > New codespace.
 
-# Step 3: Install the necessary dependencies.
-npm i
+Technologies Used
+Vite & React: For a fast, responsive user interface.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+TypeScript: Ensuring code reliability and maintainability.
 
-**Edit a file directly in GitHub**
+shadcn-ui & Tailwind CSS: Professional, modern styling.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Electron: Powering the native desktop experience.
 
-**Use GitHub Codespaces**
+Supabase: Managing secure, local-first data storage.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Deployment & Desktop Builds
+Web Deployment
 
-## Download Options
+You can deploy the project via platforms like Lovable by selecting Share -> Publish.
 
-You can download the source code in several ways:
+Building for Desktop
 
-1. Clone the repository using Git
-2. Download as ZIP from the GitHub repository
-3. Use the download button in the app interface
+To package the app for offline desktop use:
 
-## Technologies Used
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-- Electron (for desktop applications)
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/01b48752-b4f5-46f3-b097-2535d8e730c6) and click on Share -> Publish.
-
-## Building Desktop Applications
-
-To build the desktop application:
-
-```sh
-# Build the web application
+Bash
+# Build the web assets
 npm run build
 
-# Build the desktop application for all platforms
+# Build for all desktop platforms
 npx electron-builder build
 
-# Build specifically for Apple Silicon (M1/M2/M3 Macs)
+# Build specifically for Apple Silicon (M1/M2/M3)
 npx electron-builder build --mac --arm64
-```
+Note on Apple Silicon: The application is fully optimized for ARM64 architecture, providing native performance, reduced power consumption, and hardware acceleration for machine learning features on M-series chips.
 
-### Apple Silicon Support
+Support & Contact
+Support Development
+If Office Manager adds value to your workflow, consider supporting continued development via PayPal.
 
-The application is fully optimized for Apple Silicon (M1/M2/M3) processors. The .dmg file created by the build process will work natively on Apple Silicon, providing maximum performance without Rosetta translation.
-
-Key features of the Apple Silicon build:
-- Native ARM64 architecture support
-- Optimized performance for M1/M2/M3 chips
-- Reduced power consumption compared to x86 builds
-- Full hardware acceleration for machine learning features
-
-## Support Development
-
-If you find Office Manager useful, please consider supporting its development with a tip at https://www.paypal.me/aaronthelegend
-
-## Contact
-nwautomations
-For questions or support, please open an issue on the GitHub repository or contact us at northwesternautomation@gmail.com
+Contact
+For support or inquiries, please open an issue on the GitHub repository or reach out to the Northwestern Automation team at northwesternautomation@gmail.com.
