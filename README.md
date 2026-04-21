@@ -15,9 +15,6 @@ Office Management: Professional-grade tools for shift scheduling, team coordinat
 
 Intelligent Assistant: An AI-powered co-pilot tailored to handle repetitive administrative tasks.
 
-License
-This project is licensed under the MIT License. While the source code is open-access and permissive for modification, please note that specific third-party integrations or hosting platforms may incur their own costs. See the LICENSE.md file for full details.
-
 How to Edit This Code
 You can customize the application to fit your specific business needs using the following methods:
 
@@ -52,8 +49,6 @@ Supabase: Managing secure, local-first data storage.
 
 Deployment & Desktop Builds
 Web Deployment
-
-You can deploy the project via platforms like Lovable by selecting Share -> Publish.
 
 Building for Desktop
 
